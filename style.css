@@ -1,0 +1,132 @@
+body
+{
+	padding: 0;
+	margin:0;
+	height: 100vh;
+	background: rgb(245,245,247);
+	background: -moz-linear-gradient(90deg, rgba(245,245,247,1) 0%, rgba(228,228,229,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(245,245,247,1) 0%, rgba(228,228,229,1) 100%);
+	background: linear-gradient(90deg, rgba(245,245,247,1) 0%, rgba(228,228,229,1) 100%);
+	font-family: 'Roboto', sans-serif;
+}
+#container
+{
+	width: 700px;
+	height: 500px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#container h1
+{
+	text-align: center;
+}
+#result
+{
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+	height: 50px;
+	border:1px solid red;
+}
+#translate
+{
+	width: 700px;
+	height: 340px;
+	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.47);
+	border-radius: 7px;
+}
+.form_container
+{
+	width: 680px;
+	height: 150px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.01);
+    padding: 10px;
+}
+.input_container
+{
+	background-color: #fff;
+	border-radius: 7px 7px 0 0;
+}
+.language_bar
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #F5F5F7;
+	width: 150px;
+	border-radius:3px;
+}
+.country_flag
+{
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding:5px;	
+}
+.country_flag img
+{
+	width: 100%;
+	border-radius: 100%;
+}
+select
+{
+	background-color: #F5F5F7;
+	border:0;
+	font-weight: bold;
+	outline: none;
+}
+#input_text
+{
+	width: 100%;
+	margin:0;
+	padding: 0;
+	border:0;
+	height: 100px;
+	resize: none;
+	outline: none;
+	padding-top: 5px;
+}
+.original_language
+{
+	color:rgba(0, 0, 0, 0.54);
+	font-size: 13px;
+	display: none;
+}
+.detected_language
+{
+	color: #4285f4;
+	cursor: pointer;
+}
+.output_container
+{
+	background-color: #F9F9FA;
+	border-radius: 0 0 7px 7px;
+}
+#output_text img 
+{
+	width: 30px;
+}
+#btn
+{
+	display: block;
+	width: 100px;
+	margin:0 auto;
+	margin-top: 20px;
+	border:0;
+	background-color: transparent;
+	outline: none;
+}
+#btn img
+{
+	height: 64px;
+	width: 64px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+#btn img:hover
+{
+	height: 62px;
+	width: 62px;
+}

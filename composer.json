@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yandex/translate-api": "^1.5",
+        "stidges/country-flags": "^1.0"
+    }
+}
