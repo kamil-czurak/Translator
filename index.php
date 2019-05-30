@@ -5,8 +5,6 @@
 	use Yandex\Translate\Exception;
 	$translator = new Translator();
 
-	$arr = $translator->getSupportedLanguages();
-
 	$lang_arr = $translator->getSupportedLanguages();
 	asort($lang_arr);
 
